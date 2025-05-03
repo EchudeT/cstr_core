@@ -12,7 +12,7 @@ categories = ["data-structures", "no-std"]
 edition = "2018"
 
 [dependencies]
-cty = "0.2.1"
+cty = { git = "https://github.com/EchudeT/cty.git", rev = "4ef7"}
 memchr = { version = "2.3.3", default-features = false }
 
 [features]
